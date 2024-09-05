@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: currentColor;
+    cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    cursor: pointer;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
