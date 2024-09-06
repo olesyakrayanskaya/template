@@ -371,4 +371,49 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 16px 0;
+  }
+}
+
+h1 {
+  color: #141A32;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.8px;
+}
+
+h2 {
+  color: #141A32;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.24px;
+}
+
+p {
+  color: #141A32;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
 }/*# sourceMappingURL=main.css.map */

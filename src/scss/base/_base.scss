@@ -1,3 +1,6 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
 *,
 *::before,
 *::after {
@@ -44,4 +47,30 @@ img,
 picture {
     max-width: 100%;
     display: block;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 80px 0;
+
+    @media screen and (max-width: 1200px) {
+        padding: 40px 0;        
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 16px 0;        
+    }
+}
+
+h1 {
+    @include h1-text;
+}
+
+h2 {
+    @include h2-text;
+}
+
+p {
+    @include paragraph-text;
 }
